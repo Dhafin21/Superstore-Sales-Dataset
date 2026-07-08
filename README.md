@@ -46,22 +46,37 @@ Dataset yang digunakan adalah **Sample Superstore Dataset** yang berisi informas
 
 # 📁 Struktur Repository
 
-```
 Superstore-Sales-Dataset
 │
 ├── Dataset
 │   └── Superstore Sales Dataset.csv
 │
-├── 1. Sales Performance Analysis.ipnyb
+├── 1. Sales Performance Analysis
+│   ├── notebook
+│   │   └── Sales Performance Analysis.ipynb
+│   └── images
 │
-├── 2. Customer Analysis.ipnyb
+├── 2. Customer Analysis
+│   ├── notebook
+│   │   └── Customer Analysis.ipynb
+│   └── images
 │
-├── 3. Product Analysis.ipnyb
+├── 3. Product Analysis
+│   ├── notebook
+│   │   └── Product Analysis.ipynb
+│   └── images
 │
-├── 4. Regional Analysis.ipnyb
+├── 4. Regional Analysis
+│   ├── notebook
+│   │   └── Regional Analysis.ipynb
+│   └── images
 │
-└── README.md
-```
+├── 5. Power BI Dashboard
+│   ├── Superstore Sales Dataset KPI.pbix
+│   └── dashboard.png
+│
+├── README.md
+└── LICENSE
 
 ---
 
