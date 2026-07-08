@@ -46,8 +46,6 @@ Dataset yang digunakan adalah **Sample Superstore Dataset** yang berisi informas
 
 # 📁 Struktur Repository
 
-## 📁 Struktur Repository
-
 ```text
 Superstore-Sales-Dataset
 │
