@@ -1,109 +1,50 @@
-# 📊 Analisis Performa Penjualan Superstore
+# 📊 Superstore Sales Dataset Analysis
 
 ## 📌 Deskripsi Proyek
 
-Proyek ini merupakan analisis data penjualan menggunakan **Superstore Sales Dataset** dengan pendekatan **Exploratory Data Analysis (EDA)**.
+Repository ini berisi serangkaian proyek **Exploratory Data Analysis (EDA)** menggunakan **Superstore Sales Dataset**. Analisis dilakukan untuk memahami performa bisnis dari berbagai perspektif, yaitu penjualan, pelanggan, produk, dan wilayah penjualan.
 
-Tujuan dari analisis ini adalah memahami performa penjualan perusahaan, mengidentifikasi tren penjualan, serta menghasilkan insight yang dapat digunakan sebagai dasar pengambilan keputusan bisnis.
-
----
-
-## 🎯 Tujuan Analisis
-
-Analisis ini bertujuan untuk menjawab beberapa pertanyaan bisnis berikut:
-
-- Berapa total penjualan yang dihasilkan?
-- Berapa jumlah transaksi yang terjadi?
-- Berapa jumlah pelanggan unik?
-- Berapa rata-rata nilai transaksi?
-- Bagaimana tren penjualan setiap tahun?
-- Bulan apa yang memiliki total penjualan tertinggi?
-- Hari apa yang memiliki total penjualan tertinggi?
+Seluruh analisis dikembangkan menggunakan Python dengan pendekatan Business Understanding hingga Business Recommendation.
 
 ---
 
-## 📂 Dataset
+# 🎯 Tujuan Proyek
 
-Dataset yang digunakan adalah **Superstore Sales Dataset** yang berisi informasi mengenai:
+Project ini bertujuan untuk:
 
-- Informasi transaksi
-- Informasi pelanggan
-- Informasi produk
-- Informasi wilayah
-- Informasi pengiriman
-- Nilai penjualan
+- Memahami performa penjualan perusahaan.
+- Menganalisis perilaku pelanggan.
+- Mengidentifikasi kategori dan produk dengan performa terbaik.
+- Menganalisis performa penjualan berdasarkan wilayah.
+- Memberikan insight dan rekomendasi bisnis berbasis data.
 
 ---
 
-## 🛠️ Tools yang Digunakan
+# 📂 Dataset
+
+Dataset yang digunakan adalah **Sample Superstore Dataset** yang berisi informasi mengenai:
+
+- Transaksi Penjualan
+- Pelanggan
+- Produk
+- Kategori Produk
+- Wilayah Penjualan
+- Pengiriman
+- Nilai Penjualan
+
+---
+
+# 🛠️ Tools
 
 - Python
 - Pandas
-- NumPy
 - Matplotlib
 - Jupyter Notebook
+- Git & GitHub
 
 ---
 
-## 🔄 Tahapan Analisis
-
-1. Business Understanding
-2. Data Understanding
-3. Data Cleaning
-4. Feature Engineering
-5. KPI Analysis
-6. Sales Trend Analysis
-7. Business Insight
-8. Business Recommendation
-
----
-
-## 📈 KPI Penjualan
-
-| KPI | Hasil |
-|------|-------|
-| Total Penjualan | **$2,261,536.78** |
-| Total Order | **4.922** |
-| Total Customer | **793** |
-| Rata-rata Nilai Transaksi | **$459.48** |
-
----
-
-## 📊 Hasil Analisis
-
-Berdasarkan hasil analisis diperoleh beberapa temuan sebagai berikut:
-
-- Total penjualan mencapai **$2,261,536.78**.
-- Dataset terdiri dari **4.922 transaksi** yang dilakukan oleh **793 pelanggan unik**.
-- Rata-rata nilai transaksi sebesar **$459.48**.
-- Penjualan menunjukkan tren yang meningkat setiap tahunnya.
-- Bulan dengan total penjualan tertinggi adalah **November**.
-- Hari dengan total penjualan tertinggi adalah **Sabtu**.
-
----
-
-## 💡 Insight
-
-Berdasarkan hasil analisis dapat disimpulkan bahwa performa penjualan menunjukkan tren yang positif dari tahun ke tahun.
-
-Selain itu, bulan November menjadi periode dengan penjualan tertinggi sehingga dapat menjadi indikasi adanya peningkatan permintaan menjelang akhir tahun.
-
-Hari Sabtu juga memberikan kontribusi penjualan terbesar dibandingkan hari lainnya sehingga perlu dilakukan analisis lanjutan untuk mengetahui apakah kondisi tersebut dipengaruhi oleh tingginya jumlah transaksi atau tingginya nilai transaksi.
-
----
-
-## 📝 Rekomendasi Bisnis
-
-Berdasarkan hasil analisis, beberapa rekomendasi yang dapat dipertimbangkan adalah:
-
-- Meningkatkan persediaan produk menjelang bulan November.
-- Menyiapkan strategi promosi menjelang akhir tahun.
-- Mengoptimalkan sumber daya operasional pada hari Sabtu.
-- Melakukan analisis lanjutan terhadap kategori produk dan segmen pelanggan yang berkontribusi terhadap peningkatan penjualan.
-
----
-
-## 📁 Struktur Repository
+# 📁 Struktur Repository
 
 ```
 Superstore-Sales-Dataset
@@ -111,16 +52,137 @@ Superstore-Sales-Dataset
 ├── Dataset
 │   └── Superstore Sales Dataset.csv
 │
-├── Sales Performance Analysis
-│   └── Superstore Sales Dataset.ipynb
+├── 1. Sales Performance Analysis.ipnyb
+│
+├── 2. Customer Analysis.ipnyb
+│
+├── 3. Product Analysis.ipnyb
+│
+├── 4. Regional Analysis.ipnyb
 │
 └── README.md
 ```
 
 ---
 
+# 📈 Project yang Telah Diselesaikan
 
-## 👨‍💻 Penulis
+## 1. Sales Performance Analysis
+
+### Business Questions
+
+- Berapa total penjualan?
+- Berapa total order?
+- Berapa total customer?
+- Berapa rata-rata nilai transaksi?
+- Bagaimana tren penjualan setiap tahun?
+- Bulan apa dengan penjualan tertinggi?
+- Hari apa dengan penjualan tertinggi?
+
+### Hasil Analisis
+
+- Total Sales : **$2,261,536.78**
+- Total Order : **4,922**
+- Total Customer : **793**
+- Average Transaction : **$459.48**
+- Sales meningkat setiap tahun.
+- November merupakan bulan dengan penjualan tertinggi.
+- Sabtu merupakan hari dengan penjualan tertinggi.
+
+---
+
+## 2. Customer Analysis
+
+### Business Questions
+
+- Berapa jumlah customer?
+- Berapa rata-rata order setiap customer?
+- Segment mana yang memberikan kontribusi terbesar?
+- Siapa Top Customer?
+- Bagaimana perilaku repeat order customer?
+
+### Hasil Analisis
+
+- Total Customer : **793**
+- Average Order per Customer : **6**
+- Consumer menjadi segment dengan kontribusi sales terbesar.
+- Sebagian besar customer melakukan pembelian berulang sebanyak **5–7 transaksi**.
+- Berhasil mengidentifikasi Top Customer berdasarkan Sales dan Repeat Order.
+
+---
+
+## 3. Product Analysis
+
+### Business Questions
+
+- Kategori produk dengan sales terbesar.
+- Sub-category dengan performa terbaik.
+- Produk dengan nilai penjualan tertinggi.
+- Kontribusi setiap kategori produk.
+
+### Hasil Analisis
+
+- Technology menjadi kategori dengan sales terbesar.
+- Office Supplies memiliki jumlah transaksi terbanyak.
+- Phones menjadi sub-category dengan penjualan tertinggi.
+- Copiers memiliki transaksi sedikit namun nilai transaksi tinggi.
+
+---
+
+## 4. Regional Analysis
+
+### Business Questions
+
+- Region dengan sales terbesar.
+- State dengan performa terbaik.
+- City dengan penjualan tertinggi.
+- Kontribusi setiap wilayah terhadap total penjualan.
+
+### Hasil Analisis
+
+- West merupakan region dengan kontribusi penjualan terbesar.
+- West juga memiliki jumlah customer dan order terbanyak.
+- Beberapa kota memberikan kontribusi penjualan yang jauh lebih besar dibanding kota lainnya.
+
+---
+
+# 📚 Tahapan Analisis
+
+Setiap project menggunakan tahapan analisis yang sama, yaitu:
+
+1. Business Understanding
+2. Data Understanding
+3. Data Cleaning
+4. Feature Engineering
+5. Exploratory Data Analysis (EDA)
+6. Business Insight
+7. Business Recommendation
+
+---
+
+# 🎯 Skills yang Digunakan
+
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Aggregation
+- Data Visualization
+- Feature Engineering
+- Business Insight
+- Business Recommendation
+
+---
+
+# 🚀 Rencana Pengembangan
+
+Repository ini akan terus dikembangkan dengan beberapa project lanjutan, seperti:
+
+- Dashboard menggunakan Power BI
+- Analisis menggunakan SQL
+- Machine Learning (Prediksi Sales)
+
+---
+
+# 👨‍💻 Author
 
 **Dhafin**
 
