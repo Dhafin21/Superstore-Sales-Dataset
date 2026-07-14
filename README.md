@@ -76,6 +76,10 @@ Superstore-Sales-Dataset
 │   ├── Superstore Sales Dataset KPI.pbix
 │   └── dashboard.png
 │
+├── 6. MySQL
+│   ├── 01. Overall Performance.sql
+│   └── 02. Customer Analysis.sql
+│
 ├── README.md
 └── LICENSE
 ```
